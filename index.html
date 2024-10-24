@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrakashGPT Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="side-bar">
+        <button id="new-chat-btn">New chat</button>
+        <div class="history" id="chat-history"></div>
+        <div class="nav">
+            <p>Made by Prakash</p>
+        </div>
+    </section>
+    
+    <section class="main-section">
+        <h1>PrakashGPT</h1>
+        <div id="output" class="output-container"></div>
+        
+        <div class="bottom-section">
+            <div class="input-container">
+                <input type="text" id="userInput" placeholder="Type your message..." />
+                <button id="submit" aria-label="Send message">Send</button>
+            </div>
+        </div>
+        <p class="info">Powered by OpenAI GPT-3.5 Turbo</p>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

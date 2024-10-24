@@ -1,0 +1,101 @@
+/* Styles for the Chat Interface */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #202123;
+    color: #fff;
+}
+
+.side-bar {
+    width: 20%;
+    background-color: #2a2b32;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-bar button {
+    background-color: #5e5ce6;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.side-bar .history {
+    flex-grow: 1;
+    margin-top: 20px;
+    overflow-y: auto;
+    background-color: #3a3b42;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.side-bar .nav p {
+    font-size: 14px;
+    color: #808080;
+}
+
+.main-section {
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.output-container {
+    flex-grow: 1;
+    background-color: #2a2b32;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 400px;
+}
+
+.output-container p {
+    margin-bottom: 10px;
+}
+
+.bottom-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #5e5ce6;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4544c1;
+}
